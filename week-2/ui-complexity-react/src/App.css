@@ -1,0 +1,25 @@
+.btn {
+  display: block;
+  padding: 10px;
+  border: 2px solid #dfdfdf;
+  width: 200px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #333333;
+  text-transform: capitalize;
+}
+
+.btn.active {
+  border-color: #51c5ff;
+  background-color: #e5efff;
+}
+
+input[type='text'] {
+  margin-bottom: 10px;
+  font-family: Helvetica;
+  font-size: 14px;
+  padding: 5px;
+  width: 350px;
+  outline: none;
+  color: #333;
+}
