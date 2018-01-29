@@ -2,7 +2,7 @@
 
 This example demonstrates a very, very simple user interface written in pure JavaScript and some of the problems that arise from this.
 
-## Problems with this code
+## Problems
 
 * **Lots of DOM updates**. Every time a button is clicked, we update the HTML document (also called the DOM) 4 times. This might not seem problematic for such a small UI, but it means that the browser needs to re-render the entire page 4 times. For a larger UI, this is highly problematic.
 
