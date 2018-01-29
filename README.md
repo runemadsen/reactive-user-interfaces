@@ -7,7 +7,7 @@ This is the code repository for the Reactive User Interfaces class taught at NYU
 Perform these steps to install `create-react-app` on your computer:
 
 1. First make sure that you are running the [latest version of Node.js](https://nodejs.org/en/).
-1. Run `npm install -g create-react-app` from your terminal.
+1. Run `npm install -g create-react-app` from your terminal. If you're getting an error, try running `sudo npm install -g create-react-app`.
 
 ### Creating a new app
 
