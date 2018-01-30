@@ -1,8 +1,12 @@
 # Week 2
 
+This week we will begin our journey by looking at some of the complexities related to user interface programming, and how React removes some of these obstacles.
+
 ## Monday
 
-Today we will talk about the complexity of writing user interfaces in pure JavaScript. This folder holds three examples of the same UI built with different techniques:
+Today we will talk about the complexity of developing user interfaces. We will do this by creating a small user interfaces in three different versions: One in pure JavaScript and HTML, one with a slightly different approach in JavaScript, and then in React. These three examples are below, and the problems associated to each approach can be found in their README's.
+
+![The simple UI that we will build](images/simple-ui)
 
 1. **[ui-complexity-dom-manipulation](ui-complexity-dom-manipulation)**. A simple user interface written in pure JavaScript. Please consult the README.
 
@@ -15,3 +19,5 @@ Today we will talk about the complexity of writing user interfaces in pure JavaS
 Today we will look at the most important concepts when programming in React.
 
 1. **[components](components)**. This demonstrates the basic functionality of a React component. Please consult the README.
+
+1. **[jsx](jsx)**. This takes a deeper look at the JSX syntax that makes React components so powerful.
