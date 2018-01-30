@@ -24,7 +24,20 @@ We will now code this interface in React using a lot of techniques that will see
 
 ### In-Class Exercise
 
-Let's install and create a React app together using `create-react-app`.
+To get started with React, you first need to install `create-react-app`.
+
+1. First make sure that you are running the [latest version of Node.js](https://nodejs.org/en/).
+1. Run `npm install -g create-react-app` from your terminal. If you're getting an error, try running `sudo npm install -g create-react-app`.
+
+Now you are ready to generate a React application.
+
+1. `cd` into your class folder. For me, this would be `cd ~/Documents/reactive-user-interfaces`.
+1. Run `create-react-app test-project`. In this case `test-project` will be the name of the folder with the application.
+1. When it is done installing, run `cd test-project` and then `npm start` to see the app in your browser.
+
+### Assignment for Wednesday
+
+If you haven't already, follow the instructions from above to install `create-react-app`. Generate a new app inside of your class repository, and run it with `npm start` so you can see it in your browser. You do not need to write any code. Commit the project to your class repository and push it to GitHub. I recommend using [GitHub Desktop](https://desktop.github.com/) for this.
 
 ## Wednesday
 
