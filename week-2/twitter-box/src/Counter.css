@@ -1,0 +1,11 @@
+.counter h3 {
+  font-size: 12px;
+  color: rgb(101, 119, 134);
+  margin-bottom: 7px;
+}
+
+.counter span {
+  font-size: 18px;
+  color: rgb(29, 161, 242);
+  font-weight: bold;
+}

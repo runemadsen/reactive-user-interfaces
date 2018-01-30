@@ -1,0 +1,14 @@
+.user-info {
+  margin-left: 35%;
+}
+
+.user-info h2 {
+  font-size: 18px;
+  margin-top: 13px;
+  margin-bottom: 5px;
+}
+
+.user-info span {
+  font-size: 14px;
+  color: rgb(101, 119, 134);
+}

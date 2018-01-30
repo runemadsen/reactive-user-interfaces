@@ -1,0 +1,36 @@
+.profile {
+  width: 300px;
+  height: 210px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: white;
+  color: rgb(20, 23, 26);
+  position: relative;
+}
+
+.profile-top {
+  background-image: url('bg.jpeg');
+  background-size: cover;
+  height: 40%;
+}
+
+.profile-bottom {
+  height: 60%;
+}
+
+.counters {
+  padding: 0 20px;
+  display: flex;
+}
+
+.counters .counter {
+  flex-grow: 1;
+}
+
+.pic {
+  position: absolute;
+  top: 25%;
+  left: 3%;
+  border-radius: 50%;
+  border: 2px solid white;
+}

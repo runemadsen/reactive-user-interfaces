@@ -55,6 +55,27 @@ Understanding the JSX templating language is important. Let us look at the JSX s
 
 1. **[jsx](jsx)**. This takes a deeper look at the JSX syntax that makes React components so powerful.
 
+### Architecting the Twitter Profile Box
+
+Let's try to figure out how to create the following Twitter box with React components.
+
+![The Twitter profile box](images/twitter-box.png)
+
+* **[twitter-box](twitter-box)**. React implementation of the Twitter box.
+
 ### React Developer Tools
 
 Let us [install](https://github.com/facebook/react-devtools) and use them!
+
+### Assignment for Monday
+
+For next week, you should re-create the following article listing from [nytimes.com](https://www.nytimes.com/section/business).
+
+![The nytimes.com UI that we will build](images/nytimes.png)
+
+A few hints:
+
+* You can use Georgia as the typeface for both headings and paragraphs
+* You are going to need to use CSS `float` or the newer `flexbox` technique. [This article](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) on flexbox is good, and so is [this reference](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). If you are stuck, please ask for help.
+* You can use whatever images you want.
+* The listing needs to use the same React component three times.
