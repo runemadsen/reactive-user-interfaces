@@ -1,18 +1,3 @@
 # Reactive User Interfaces
 
-This is the code repository for the Reactive User Interfaces class taught at NYU Shanghai's Interactive Media Arts program. All examples have been created with `create-react-app`.
-
-### Installing `create-react-app`
-
-Perform these steps to install `create-react-app` on your computer:
-
-1. First make sure that you are running the [latest version of Node.js](https://nodejs.org/en/).
-1. Run `npm install -g create-react-app` from your terminal. If you're getting an error, try running `sudo npm install -g create-react-app`.
-
-### Creating a new app
-
-Perform these steps to generate a new React app inside of your class repository.
-
-1. Move into your class folder by running `cd PATH` in your terminal. You need to replace `PATH` with the actual name of your folder. If it is in `Documents`, this would be `cd ~/Documents/reactive-user-interfaces`.
-1. Run `create-react-app PROJECTNAME` where you replace `PROJECTNAME` with the name of your project. For a simple test project, you can run `create-react-app test`.
-1. Now follow the instructions provided by the generator. You will need to `cd` into the new folder and run `npm start` to see the app in your browser.
+React.js has quickly become a favored tool for making interactive user interfaces for the web and beyond. One reason for this success is that React.js introduces a one-way data flow model that drastically simplifies UI development. This class takes a deep dive into the field of UI development by focusing on what makes a React.js interface different than one built with jQuery: We will look at the React component hierarchy, the JSX templating system, and how to load and display dynamic data from API’s. The goal of the class is to teach students how to design and build beautiful web interfaces that respond to user’s behavior, and at the end of the class, students will have built several functional UI’s in React.js. Students must have taken Communications Lab (or have equivalent experience with HTML, CSS, and JavaScript) to register for this class.

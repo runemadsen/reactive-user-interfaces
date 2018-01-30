@@ -41,8 +41,16 @@ If you haven't already, follow the instructions from above to install `create-r
 
 ## Wednesday
 
+### Introduction to the `create-react-app` project skeleton
+
+### Components
+
 Today we will look at the most important concepts when programming in React.
 
 1. **[components](components)**. This demonstrates the basic functionality of a React component. Please consult the README.
 
+### JSX
+
 1. **[jsx](jsx)**. This takes a deeper look at the JSX syntax that makes React components so powerful.
+
+### React Developer Tools
