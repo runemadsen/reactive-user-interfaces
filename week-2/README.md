@@ -22,7 +22,7 @@ We will now code this interface in React using a lot of techniques that will see
 
 1. **[ui-complexity-react](ui-complexity-react)**. The same user interface written in React. Please consult the README.
 
-### In-Class Exercise
+### Installing `create-react-app`
 
 To get started with React, you first need to install `create-react-app`.
 
