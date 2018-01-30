@@ -6,7 +6,7 @@ This React app shows some of the techniques you can use in JSX to render HTML.
 
 * **Using variables in JSX**. Simply wrap your variable in `{}` and it will be inserted, as [demonstrated here](src/App.js#L16).
 
-* **`null` or `undefined` will insert nothing**. This can be used for conditional rendering, as [demonstrated here](src/App.js#L15-L12).
+* **`null` or `undefined` will insert nothing**. This can be used for conditional rendering, as [demonstrated here](src/App.js#L8-L12).
 
 * **Inline conditional rendering**. If your expression between `{}` results in false, nothing will be inserted. This is [demonstrated here](src/App.js#L18-L20).
 
