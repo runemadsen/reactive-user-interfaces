@@ -45,12 +45,16 @@ If you haven't already, follow the instructions from above to install `create-r
 
 ### Components
 
-Today we will look at the most important concepts when programming in React.
+The `Component` class is fundamental to any project using React. Let us look at some of the basic component concepts, as demonstrated in [The official React guide to components](https://reactjs.org/docs/components-and-props.html).
 
 1. **[components](components)**. This demonstrates the basic functionality of a React component. Please consult the README.
 
 ### JSX
 
+Understanding the JSX templating language is important. Let us look at the JSX syntax, as demonstrated in [The official React guide to JSX](https://reactjs.org/docs/introducing-jsx.html).
+
 1. **[jsx](jsx)**. This takes a deeper look at the JSX syntax that makes React components so powerful.
 
 ### React Developer Tools
+
+Let us [install](https://github.com/facebook/react-devtools) and use them!
