@@ -24,6 +24,23 @@ To understand the current state of the user interface, we must take a look at th
 
 ### Assignment for Wednesday
 
-Read [_As We May Think_](<http://worrydream.com/refs/Bush%20-%20As%20We%20May%20Think%20(Life%20Magazine%209-10-1945).pdf>) by Vannevar Bush and post your answer to the following questions on the documentation blog: Which similarities exist between what Bush describes and the computers that we use today? What did not come to fruition? Also, read [_The User Experience of Design Systems_](https://runemadsen.com/talks/uxcampcph/). You don't need to post anything about this text. Email me your GitHub repo link if you haven't.
+Read the following two texts:
+
+* [_As We May Think_](<http://worrydream.com/refs/Bush%20-%20As%20We%20May%20Think%20(Life%20Magazine%209-10-1945).pdf>) by Vannevar Bush. Please post your answer to the following questions on the documentation blog: Which similarities exist between what Bush describes and the computers that we use today? What did not come to fruition?
+* [_The User Experience of Design Systems_](https://runemadsen.com/talks/uxcampcph/). You don't need to post anything about this text.
+
+Also, email me your GitHub repo link if you haven't.
 
 ## Wednesday
+
+### Reading Discussion
+
+### Web Development Overview
+
+Let's brush up on web technologies.
+
+* [How the web works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
+* [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
+* [Introduction to CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS)
+* [What is JavaScript?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
+* [ES6 Features](https://ponyfoo.com/articles/es6)
