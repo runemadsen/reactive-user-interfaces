@@ -1,18 +1,23 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
   render() {
+    const name = 'Rune Madsen';
+
+    let paragraph = null;
+    const showParagraph = true;
+    if (showParagraph) {
+      paragraph = <p>This will show up if the if statement is true.</p>;
+    }
+
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div className="my-class">
+        Hello {name}
+        {paragraph}
+        {showParagraph && (
+          <p>This will also show up if the if statement is true.</p>
+        )}
       </div>
     );
   }
