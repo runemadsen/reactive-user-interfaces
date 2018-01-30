@@ -79,3 +79,5 @@ A few hints:
 * You are going to need to use CSS `float` or the newer `flexbox` technique. [This article](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) on flexbox is good, and so is [this reference](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). If you are stuck, please ask for help.
 * You can use whatever images you want.
 * The listing needs to use the same React component three times.
+
+Please write a short post on the documentation blog with a link to your code on GitHub.
