@@ -6,4 +6,4 @@ This code example demonstrates the basic functionality of React components. The 
 
 * **Components accept props**. These are called `props` for functional components or `this.props` for classes. See how [`App.js` uses different props](src/App.js#L11-L15) for the same component.
 
-* **Components can have other components**. A React components can render other components, which makes it possible to make a nice hierarchy for your user interface. See the [HelloContainer](src/HelloContainer.js) class.
+* **Components can have other components**. A React components can render other components, which makes it possible to make a nice hierarchy for your user interface. See the [HelloContainer](src/HelloContainer.js) class for hard-coded child component. See the [ParentComponent](src/ParentComponent.js) class for dynamic child components using `this.props.children`.

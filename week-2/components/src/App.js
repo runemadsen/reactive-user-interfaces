@@ -3,6 +3,7 @@ import './App.css';
 import HelloFunction from './HelloFunction';
 import HelloClass from './HelloClass';
 import HelloContainer from './HelloContainer';
+import ParentComponent from './ParentComponent';
 
 class App extends Component {
   render() {
@@ -13,6 +14,9 @@ class App extends Component {
         <HelloClass name="Rune" />
         <HelloClass name="Roopa" />
         <HelloContainer name="Rune" />
+        <ParentComponent>
+          <p>I am a child! I could be another component too!</p>
+        </ParentComponent>
       </div>
     );
   }
