@@ -69,15 +69,15 @@ Let us [install](https://github.com/facebook/react-devtools) and use them!
 
 ### Assignment for Monday
 
-For next week, you should re-create the following article listing from [nytimes.com](https://www.nytimes.com/section/business).
+For next week, you will re-create the following article listing from [nytimes.com](https://www.nytimes.com/section/business).
 
 ![The nytimes.com UI that we will build](images/nytimes.png)
 
 A few hints:
 
 * You can use Georgia as the typeface for both headings and paragraphs
-* You are going to need to use CSS `float` or the newer `flexbox` technique. [This article](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) on flexbox is good, and so is [this reference](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). If you are stuck, please ask for help.
+* You need to use CSS `float` or the newer `flexbox` technique for positioning elements horizontally next to each other. [This article](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) on flexbox is good, and so is [this reference](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). If you are stuck, please ask for help.
 * You can use whatever images you want.
 * The listing needs to use the same React component three times.
 
-Please write a short post on the documentation blog with a link to your code on GitHub.
+Please post a screenshot of your app with a short description on the documentation blog + a link to your code on GitHub.
