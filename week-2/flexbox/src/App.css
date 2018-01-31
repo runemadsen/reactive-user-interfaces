@@ -1,0 +1,19 @@
+.App {
+  background-color: red;
+  display: flex;
+}
+
+#one {
+  background-color: green;
+  flex: 20%;
+}
+
+#two {
+  background-color: blue;
+  flex: 50%;
+}
+
+#three {
+  background-color: green;
+  flex: 30%;
+}

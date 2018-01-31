@@ -76,7 +76,7 @@ For next week, you will re-create the following article listing from [nytimes.co
 A few hints:
 
 * You can use Georgia as the typeface for both headings and paragraphs
-* You need to use CSS `float` or the newer `flexbox` technique for positioning elements horizontally next to each other. [This article](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) on flexbox is good, and so is [this reference](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). If you are stuck, please ask for help.
+* You need to use CSS `flexbox` for positioning elements horizontally next to each other. I have created an [example to demonstrate this](flexbox). Also, [This article](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) on flexbox is good, and so is [this reference](https://css-tricks.com/snippets/css/a-guide-to-flexbox/). If you are stuck, please ask for help.
 * You can use whatever images you want.
 * The listing needs to use the same React component three times.
 
