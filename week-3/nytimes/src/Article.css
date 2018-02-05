@@ -1,0 +1,52 @@
+.Article {
+  display: flex;
+  width: 770px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.Article date,
+.Article .byline {
+  color: #999;
+  font-size: 11px;
+}
+
+.Article date {
+  flex: 0 0 140px;
+  margin-top: 8px;
+}
+
+.Article .text {
+  flex: 1;
+}
+
+.Article figure {
+  flex: 0 0 180px;
+  margin: 0;
+  padding-left: 30px;
+}
+
+.Article figure img {
+  width: 100%;
+}
+
+.Article h2 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 1.2em;
+}
+
+.Article p {
+  font-size: 14px;
+  line-height: 1.6em;
+}
+
+.Article .byline {
+  margin-bottom: 0;
+}
+
+.Article .byline span {
+  text-transform: uppercase;
+}

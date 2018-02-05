@@ -10,9 +10,9 @@ This week we will continue our journey into React by looking at state and event 
 
 React documentation: [State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html).
 
-EXAMPLE
-Simple state examples!
-Nested object in state!
+* **[component-state](component-state)**. A simple example to demonstrate component state.
+
+Now build your own counter in class!
 
 ### Assignment for Wednesday
 
