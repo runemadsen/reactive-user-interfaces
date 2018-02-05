@@ -6,6 +6,8 @@ This week we will continue our journey into React by looking at state and event 
 
 ### Homework + Solution
 
+* **[nytimes](nytimes)**. A simple implementation of The New York Times Business section article listing.
+
 ### Component State
 
 React documentation: [State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html).
