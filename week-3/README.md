@@ -26,6 +26,10 @@ Now build your own counter in class!
 
 React documentation: [Handling Events](https://reactjs.org/docs/handling-events.html).
 
+EXAMPLE 1: SIMPLE DIRECT CB
+
+EXAMPLE 2: MORE ADVANCED WITH FUNCTION THEN CB
+
 ### Dynamic Components
 
 React documentation: [Lists and Keys](https://reactjs.org/docs/lists-and-keys.html).
