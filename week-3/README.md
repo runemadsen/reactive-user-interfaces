@@ -26,9 +26,7 @@ Now build your own counter in class!
 
 React documentation: [Handling Events](https://reactjs.org/docs/handling-events.html).
 
-EXAMPLE 1: SIMPLE DIRECT CB
-
-EXAMPLE 2: MORE ADVANCED WITH FUNCTION THEN CB
+* **[event-handling](event-handling)**. Demonstrates communication between two components via their parent.
 
 ### Dynamic Components
 

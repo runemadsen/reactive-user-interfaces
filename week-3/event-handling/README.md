@@ -1,3 +1,3 @@
 # Event Handling
 
-Two dumb components and a stateful app!
+This example demonstrates how to communicate between two "dumb" components by adding state to the parent component.
