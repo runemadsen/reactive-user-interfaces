@@ -40,4 +40,4 @@ For Monday, you need to build the following user interface in React.js:
 
 ![Interface to build](images/ui.png)
 
-Take a look at the design, and sketch out a component architecture that makes sense for this. Push your code to GitHub and write up a short blog post describing your process.
+Each button needs to be clickable, and this should update the component below as well as highlight the current selected button. Take a look at the design, and sketch out a component architecture that makes sense for this. Push your code to GitHub and write up a short blog post describing your process.
