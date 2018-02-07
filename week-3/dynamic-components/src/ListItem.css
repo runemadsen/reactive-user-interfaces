@@ -1,0 +1,14 @@
+.ListItem {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d4d4d4;
+  margin-bottom: 20px;
+}
+
+.ListItem h2 {
+  margin: 0 0 10px 0;
+}
+
+.ListItem a {
+  text-decoration: none;
+  color: red;
+}
