@@ -32,4 +32,12 @@ React documentation: [Handling Events](https://reactjs.org/docs/handling-events.
 
 React documentation: [Lists and Keys](https://reactjs.org/docs/lists-and-keys.html).
 
+* **[dynamic-components](dynamic-components)**. Demonstrates how to create many components from an array.
+
 ### Assignment for Monday
+
+For Monday, you need to build the following user interface in React.js:
+
+![Interface to build](images/ui.png)
+
+Take a look at the design, and sketch out a component architecture that makes sense for this. Push your code to GitHub and write up a short blog post describing your process.
