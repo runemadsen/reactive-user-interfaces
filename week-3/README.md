@@ -4,9 +4,9 @@ This week we will continue our journey into React by looking at state and event 
 
 ## Monday
 
-### Homework + Solution
+### Homework
 
-* **[nytimes](nytimes)**. A simple implementation of The New York Times Business section article listing.
+* **[homework](homework)**. A simple implementation of The New York Times Business section article listing.
 
 ### Component State
 
@@ -27,10 +27,6 @@ Now build your own counter in class!
 React documentation: [Handling Events](https://reactjs.org/docs/handling-events.html).
 
 * **[event-handling](event-handling)**. Demonstrates communication between two components via their parent.
-
-### Dynamic Components
-
-React documentation: [Lists and Keys](https://reactjs.org/docs/lists-and-keys.html).
 
 * **[dynamic-components](dynamic-components)**. Demonstrates how to create many components from an array.
 
