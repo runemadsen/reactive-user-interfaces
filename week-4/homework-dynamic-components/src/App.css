@@ -1,0 +1,16 @@
+.App {
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+.output {
+  font-size: 35px;
+  background-color: #ededed;
+  padding: 60px 0;
+  width: 640px;
+  color: #585858;
+  border-radius: 5px;
+  text-align: center;
+}

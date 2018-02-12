@@ -1,0 +1,18 @@
+.Button {
+  background-color: white;
+  color: #156b6b;
+  width: 200px;
+  margin-right: 20px;
+  border: 1px solid #076d6d;
+  display: inline-block;
+  padding: 20px 0px;
+  font-size: 15px;
+  font-family: Helvetica;
+  outline: none;
+  cursor: pointer;
+}
+
+.Button.active {
+  background-color: #00adad;
+  color: white;
+}
