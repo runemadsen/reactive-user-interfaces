@@ -25,4 +25,6 @@ SINGLE FORM COMPONENT WITH STATE
 
 ### Lifting State up
 
+* **[temperature-converter](temperature-converter)**. A code example to demonstrate how to lift state up to the closest common ancestor.
+
 ### Assignment for Monday
