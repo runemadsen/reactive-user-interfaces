@@ -33,4 +33,4 @@ For Monday, re-create this user interface.
 
 ![User interface to be recreated](images/exercise.png)
 
-The user should be able to update the input fields on the left and see the poster on the right update dynamically.
+The user should be able to update the input fields on the left and see the poster on the right update dynamically. All typography uses Helvetica, except two lines in the poster set in Courier.
