@@ -21,10 +21,16 @@ React documentation: [Lists and Keys](https://reactjs.org/docs/lists-and-keys.ht
 
 ### Form components
 
-SINGLE FORM COMPONENT WITH STATE
+* **[form-inputs](form-inputs)**. A code example to demonstrate how to use state with form inputs.
 
 ### Lifting State up
 
 * **[temperature-converter](temperature-converter)**. A code example to demonstrate how to lift state up to the closest common ancestor.
 
 ### Assignment for Monday
+
+For Monday, re-create this user interface.
+
+![User interface to be recreated](images/exercise.png)
+
+The user should be able to update the input fields on the left and see the poster on the right update dynamically.
