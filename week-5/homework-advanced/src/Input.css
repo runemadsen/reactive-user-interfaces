@@ -1,0 +1,20 @@
+.Input {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 15px;
+  color: #9b9b9b;
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type='text'] {
+  font-size: 22px;
+  color: #4a4a4a;
+  padding: 5px 5px 5px 0px;
+  outline: none;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #d5d5d5;
+}
