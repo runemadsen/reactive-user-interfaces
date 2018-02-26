@@ -1,0 +1,29 @@
+.App {
+  display: flex;
+}
+
+.left {
+  flex: 0 0 450px;
+  padding-right: 75px;
+}
+
+.right {
+  flex: 1;
+  padding: 60px;
+  background-color: black;
+  color: white;
+}
+
+.right h1 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 70px;
+  margin-bottom: 70px;
+}
+
+.right address,
+.right time {
+  font-family: Courier, monospace;
+  font-size: 26px;
+  font-style: normal;
+}
