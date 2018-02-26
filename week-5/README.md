@@ -4,6 +4,9 @@
 
 ### Homework
 
+* **[homework-simple](homework-simple)**. A simple implementation of this week's homework.
+* **[homework-advanced](homework-advanced)**. Combing the input events into a single function handler.
+
 ### Design Research and User Stories
 
 Design cannot exist in a vacuum. A design must account for the needs and sensibilities of its user. It must respond to, build upon, and sometimes reject the vocabulary or methodologies of its predecessors.
