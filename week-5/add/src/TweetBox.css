@@ -1,0 +1,9 @@
+.TweetBox {
+  margin-bottom: 20px;
+}
+
+.TweetBox textarea {
+  width: 500px;
+  height: 80px;
+  display: block;
+}
