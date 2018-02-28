@@ -115,3 +115,7 @@ Today we will look at four techniques that are quite useful when developing user
 * **[filter](filter)**. Filter a list of items
 * **[search](search)**. Search a list of items
 * **[add](add)**. Add a new item to a list of items
+
+### Assignment for Monday
+
+Implement the first and most important user story for your midterm. This includes both functionality and design.
