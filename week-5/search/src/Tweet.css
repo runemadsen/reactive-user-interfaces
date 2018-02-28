@@ -1,0 +1,15 @@
+.Tweet {
+  padding: 10px;
+  border: 1px solid gray;
+  max-width: 500px;
+  margin-bottom: 10px;
+}
+
+.Tweet span {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.Tweet p {
+  margin: 10px 0 0 0;
+}

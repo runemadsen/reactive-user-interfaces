@@ -5,10 +5,9 @@ import Tweet from './Tweet';
 class App extends Component {
   constructor(props) {
     super(props);
-    this.sortDescending = this.sortDescending.bind(this);
-    this.sortAscending = this.sortAscending.bind(this);
+    this.onSearch = this.onSearch.bind(this);
     this.state = {
-      search: '',
+      sort: 'asc',
       tweets: [
         { username: 'runemadsen', body: 'This is the first tweet' },
         { username: 'runemadsen', body: 'This is the second tweet' },
@@ -19,34 +18,29 @@ class App extends Component {
     };
   }
 
-  sortDescending() {
+  onSearch(e) {
     this.setState({
-      sort: 'desc'
-    });
-  }
-
-  sortAscending() {
-    this.setState({
-      sort: 'asc'
+      search: e.target.value
     });
   }
 
   render() {
-    let sortedTweets = this.state.tweets;
+    let searchedTweets = this.state.tweets;
 
-    if (this.state.sort === 'desc') {
-      sortedTweets = sortedTweets.slice().reverse();
+    if (this.state.search !== '') {
+      searchedTweets = searchedTweets.filter(tweet =>
+        tweet.body.match(this.state.search)
+      );
     }
 
-    const tags = sortedTweets.map((tweet, i) => {
+    const tags = searchedTweets.map((tweet, i) => {
       return <Tweet username={tweet.username} body={tweet.body} key={i} />;
     });
 
     return (
       <div className="App">
         <div className="controls">
-          <button onClick={this.sortAscending}>Ascending</button>
-          <button onClick={this.sortDescending}>Descending</button>
+          <input type="text" placeholder="Search" onChange={this.onSearch} />
         </div>
         {tags}
       </div>
