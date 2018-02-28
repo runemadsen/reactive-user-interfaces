@@ -102,3 +102,16 @@ This week, you will start working on your midterm projects. The midterm project 
 For Wednesday, post a short competitor analysis on the documentation blog. Which address book apps exist? What do they do well? What could be improved? Also, post a prioritized list of user stories (important ones first) in the same blog post. These will be close to the midterm functionality requirements above, but might include extra functionality based on your unique approach. Remember that you need to be able to do this in two weeks.
 
 The midterms are due on Wednesday the 14th of March.
+
+## Wednesday
+
+### Problems with Homework?
+
+### Display Techniques
+
+Today we will look at four techniques that are quite useful when developing user interfaces in React. Some of these you will use in your midterm project.
+
+* **[sort](sort)**. Sort a list of items
+* **[filter](filter)**. Filter a list of items
+* **[search](search)**. Search a list of items
+* **[add](add)**. Add a new item to a list of items
