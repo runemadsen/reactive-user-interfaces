@@ -1,11 +1,19 @@
-# Monday
+# Week 6
 
-## Midterm Stand-up Meeting
+## Monday
 
-## NPM, Node, and Packages
+### Midterm Stand-up Meeting
+
+### NPM, Node, and Packages
 
 * [What is Node.js?](https://www.infoworld.com/article/3210589/node-js/what-is-nodejs-javascript-runtime-explained.html)
 
-## React Router
+### React Router
 
-* **[react-router](react-router)**. This example shows how to use React Router to create pages within a React application.
+* **[router](router)**. This example shows how to use React Router to create pages within a React application.
+
+## Wednesday
+
+### Dynamic Routes
+
+* **[router-advanced](router-advanced)**. A small contact list application to demonstrate dynamic routes in React.
