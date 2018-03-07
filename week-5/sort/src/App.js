@@ -7,14 +7,15 @@ class App extends Component {
     super(props);
     this.sortDescending = this.sortDescending.bind(this);
     this.sortAscending = this.sortAscending.bind(this);
+    this.sortByName = this.sortByName.bind(this);
     this.state = {
       search: '',
       tweets: [
         { username: 'runemadsen', body: 'This is the first tweet' },
-        { username: 'runemadsen', body: 'This is the second tweet' },
-        { username: 'runemadsen', body: 'This is the greatest third tweet' },
-        { username: 'runemadsen', body: 'This is the greatest fourth tweet' },
-        { username: 'runemadsen', body: 'This is the fifth tweet' }
+        { username: 'someone', body: 'This is the second tweet' },
+        { username: 'anotherone', body: 'This is the greatest third tweet' },
+        { username: 'thirduser', body: 'This is the greatest fourth tweet' },
+        { username: 'clayshirky', body: 'This is the fifth tweet' }
       ]
     };
   }
@@ -31,11 +32,21 @@ class App extends Component {
     });
   }
 
+  sortByName() {
+    this.setState({
+      sort: 'name'
+    });
+  }
+
   render() {
-    let sortedTweets = this.state.tweets;
+    let sortedTweets = this.state.tweets.slice();
 
     if (this.state.sort === 'desc') {
-      sortedTweets = sortedTweets.slice().reverse();
+      sortedTweets = sortedTweets.reverse();
+    } else if (this.state.sort === 'name') {
+      sortedTweets = sortedTweets.sort(
+        (tweetA, tweetB) => tweetA.username > tweetB.username
+      );
     }
 
     const tags = sortedTweets.map((tweet, i) => {
@@ -45,8 +56,9 @@ class App extends Component {
     return (
       <div className="App">
         <div className="controls">
-          <button onClick={this.sortAscending}>Ascending</button>
-          <button onClick={this.sortDescending}>Descending</button>
+          <button onClick={this.sortAscending}>Sort by Ascending</button>
+          <button onClick={this.sortDescending}>Sort by Descending</button>
+          <button onClick={this.sortByName}>Sort by Name</button>
         </div>
         {tags}
       </div>
