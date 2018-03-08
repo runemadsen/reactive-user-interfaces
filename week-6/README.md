@@ -17,3 +17,5 @@
 ### Dynamic Routes
 
 * **[router-advanced](router-advanced)**. A small contact list application to demonstrate dynamic routes in React.
+
+### Work on Mid-Terms
