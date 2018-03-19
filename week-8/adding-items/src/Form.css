@@ -1,0 +1,9 @@
+.Form input {
+  width: 100%;
+  display: block;
+  font-family: Helvetica;
+  font-size: 13px;
+  border: 1px solid #cecece;
+  padding: 10px;
+  margin-bottom: 10px;
+}

@@ -38,9 +38,15 @@ All in all, this boils down to whether your user interface signals the _intent_ 
 * Use color to differentiate buttons with headings
 * Clean up whitespace on search image
 
+#### Example 3
+
 #### More Examples
 
 * [Intent of search box is unclear](images/another_example1.png)
 * [Too many typefaces](images/another_example2.png)
 * [Intent of icons unclear](images/another_example3.png)
 * ["Add Contact" box size and position problems](images/another_example4.png)
+
+### Adding new items
+
+* **[adding-items](adding-items)**. This example shows how to add items to a dynamic list, using a custom component to encapsulate the form state.
