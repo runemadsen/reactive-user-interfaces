@@ -27,6 +27,7 @@ All in all, this boils down to whether your user interface signals the _intent_ 
 * This also cleans up whitespace
 * Green is now used to distinguish main image panel with search bar. Black name bars make this more apparent.
 * Border-radius is used on entire contact element to unify the name and picture. Before it separated the name and picture.
+* Removed all position absolute
 
 #### Example 2
 
@@ -38,14 +39,13 @@ All in all, this boils down to whether your user interface signals the _intent_ 
 * Use color to differentiate buttons with headings
 * Clean up whitespace on search image
 
-#### Example 3
-
 #### More Examples
 
 * [Intent of search box is unclear](images/another_example1.png)
 * [Too many typefaces](images/another_example2.png)
 * [Intent of icons unclear](images/another_example3.png)
 * ["Add Contact" box size and position problems](images/another_example4.png)
+* [Clean up space for search/filter/sort and unify whitespace](images/another_example5.png)
 
 ### Adding new items
 
