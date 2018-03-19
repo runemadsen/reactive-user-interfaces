@@ -27,14 +27,28 @@ class Form extends Component {
 
   buttonClicked() {
     this.props.onSubmit(this.state.name, this.state.email);
+    this.setState({
+      name: '',
+      email: ''
+    });
   }
 
   render() {
     return (
       <div className="Form">
         <h3>Add new contact</h3>
-        <input type="text" placeholder="Name" onChange={this.nameChanged} />
-        <input type="email" placeholder="Email" onChange={this.emailChanged} />
+        <input
+          value={this.state.name}
+          type="text"
+          placeholder="Name"
+          onChange={this.nameChanged}
+        />
+        <input
+          value={this.state.email}
+          type="email"
+          placeholder="Email"
+          onChange={this.emailChanged}
+        />
         <button onClick={this.buttonClicked}>Save</button>
       </div>
     );
