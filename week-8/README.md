@@ -27,3 +27,13 @@ All in all, this boils down to whether your user interface signals the _intent_ 
 * This also cleans up whitespace
 * Green is now used to distinguish main image panel with search bar. Black name bars make this more apparent.
 * Border-radius is used on entire contact element to unify the name and picture. Before it separated the name and picture.
+
+#### Example 2
+
+[BEFORE](images/example2_before.png) / [AFTER](images/example2_after.png)
+
+* Unify use of color and type across the UI: All names are pink, labels are same size and color, etc.
+* Tag now looks like a tag
+* Use font color for same typeface rather than different typefaces.
+* Use color to differentiate buttons with headings
+* Clean up whitespace on search image
