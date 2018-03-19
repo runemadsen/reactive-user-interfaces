@@ -14,10 +14,12 @@ In this class, I will highlight some of the recurring themes that popped up in m
 
 * **Color**. Do you use color contrast to clarify the layout and distinguish groups of elements from others? Do you cut down on unnecessary use of color that distracts the user?
 
+* **Typography**. Do you use different type style to signal differences between data points? Do you keep the amount of different typefaces to a minimum?
+
 All in all, this boils down to whether your user interface signals the _intent_ of the elements by using the variables above. The first step towards a good interface is to think of these variables as functional rather than aesthetic. Now, let's take a look at some of your user interfaces and what I would change.
 
 #### Example 1
 
-![images/example1_before.png](Example 1: Before)
+!(images/example1_before.png)[Example 1: Before]
 
-![images/example1_after.png](Example 1: After)
+!(images/example1_after.png)[Example 1: After]
