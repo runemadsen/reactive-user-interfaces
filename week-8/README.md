@@ -53,4 +53,4 @@ All in all, this boils down to whether your user interface signals the _intent_ 
 
 ### Assignment for Wednesday
 
-If you haven't, finish the `Form` component example we worked on in class. Your code should have a Form component that saves the state of the form, and send this to the parent via a prop function when a save button is clicked. Push your code to GitHub. There is no need to write a documentation blog post.
+If you haven't, finish the `Form` component example we worked on in class. Your code should have a Form component that saves the state of the form, and sends the state to the parent via a prop function when a button is clicked. Push your code to GitHub. There is no need to write a documentation blog post.
