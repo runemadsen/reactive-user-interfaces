@@ -22,4 +22,8 @@ All in all, this boils down to whether your user interface signals the _intent_ 
 
 [BEFORE](images/example1_before.png) / [AFTER](images/example1_after.png)
 
-* Some thoughts
+* Gray background takes less focus that green gradient. Background is not an important element.
+* Images are made larger because they are most important concept.
+* This also cleans up whitespace
+* Green is now used to distinguish main image panel with search bar. Black name bars make this more apparent.
+* Border-radius is used on entire contact element to unify the name and picture. Before it separated the name and picture.
