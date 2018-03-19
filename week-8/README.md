@@ -20,6 +20,6 @@ All in all, this boils down to whether your user interface signals the _intent_ 
 
 #### Example 1
 
-!(images/example1_before.png)[Example 1: Before]
+![Example 1: Before](images/example1_before.png)
 
-!(images/example1_after.png)[Example 1: After]
+![Example 1: After](images/example1_after.png)
