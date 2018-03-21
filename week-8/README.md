@@ -61,6 +61,8 @@ If you haven't, finish the `Form` component example we worked on in class. Your 
 
 * **[local-storage](local-storage)**. An example that shows how to use localStorage to store an apps state.
 
+### Vote for subjects to look at
+
 ### Assignment for Monday
 
 For Monday, expand upon your midterm project so it has the ability to add new contacts (based on the code we looked at Monday) as well as the ability to automatically save its state to localStorage. Commit your changes to your midterm code and push to GitHub (there is no need to create a new app).
