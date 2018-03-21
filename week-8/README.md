@@ -61,6 +61,10 @@ If you haven't, finish the `Form` component example we worked on in class. Your 
 
 * **[local-storage](local-storage)**. An example that shows how to use localStorage to store an apps state.
 
+### Prop types
+
+* **[prop-types](prop-types)**. Shows how to use prop types with a React component.
+
 ### Vote for subjects to look at
 
 ### Assignment for Monday

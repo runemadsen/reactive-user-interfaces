@@ -1,0 +1,25 @@
+.Button {
+  border: none;
+  background-color: #4366ee;
+  color: white;
+  font-family: Helvetica;
+  margin-right: 10px;
+  font-size: 16px;
+  padding: 10px 15px;
+}
+
+.small {
+  font-size: 14px;
+  padding: 6px 10px;
+}
+
+.large {
+  font-size: 18px;
+  padding: 15px 20px;
+}
+
+.alternative {
+  border: 1px solid #4366ee;
+  background-color: white;
+  color: #4366ee;
+}
