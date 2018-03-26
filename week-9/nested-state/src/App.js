@@ -8,22 +8,41 @@ class App extends Component {
     this.state = {
       counter: {
         times: 0
-      }
+      },
+      contacts: [{ name: "rune" }]
     };
   }
 
+  // This shows how to update a nested object key.
   increment() {
-    // This will update the object in state, so DO NOT do this.
-    // this.state.counter++;
-    // this.setState({ counter: this.state.counter });
-
-    // The proper way to do it is to copy the object with Object.assign.
     let copy = Object.assign({}, this.state.counter);
     copy.times++;
 
     this.setState({
       counter: copy
     });
+  }
+
+  // This shows how to update an object key in an array
+  // This function is currently not being used in the code.
+  updateFirstPerson() {
+
+    // Copy array
+    let arrCopy = this.state.contacts.slice();
+
+    // Copy object you want to change
+    let personCopy = Object.assign({}, arrCopy[0]);
+
+    // Update person
+    personCopy.name = "Another";
+
+    // Put new updated person back in array copy
+    arrCopy[0] = personCopy;
+
+    // Update state
+    this.setState({
+      contacts: arrCopy
+    })
   }
 
   render() {
