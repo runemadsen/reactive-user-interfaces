@@ -9,7 +9,7 @@ class App extends Component {
         <Button size="small">Small Button</Button>
         <Button>Normal Button</Button>
         <Button size="large">Large Button</Button>
-        <Button variant="alternative" size="small">
+        <Button variant="alternative" size="large">
           Alternative Small Button
         </Button>
       </div>

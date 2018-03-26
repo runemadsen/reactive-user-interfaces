@@ -1,0 +1,11 @@
+.App {
+  line-height: 1.4em;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+p {
+  max-width: 700px;
+}
