@@ -15,8 +15,6 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.setState({ isLoading: true });
-
     fetch(API_URL)
       .then(response => {
         if (response.ok) {
