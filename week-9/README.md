@@ -6,7 +6,7 @@
 
 * **[nested-state](nested-state)**. How to update a nested state object.
 
-### HTTP and API's
+### HTTP, API's and JSON
 
 ### Fetch State
 
