@@ -40,7 +40,6 @@ class App extends Component {
       return <p>Error! {this.state.error}</p>;
     }
 
-    console.log(this.state.docs);
     const article = this.state.docs[0];
 
     return (
