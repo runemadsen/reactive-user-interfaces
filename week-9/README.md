@@ -2,6 +2,10 @@
 
 ## Monday
 
+### Updating Nested State
+
+* **[nested-state](nested-state)**. How to update a nested state object.
+
 ### HTTP and API's
 
 ### Fetch State
