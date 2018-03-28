@@ -19,3 +19,9 @@ Read: [How to fetch data in React](https://www.robinwieruch.de/react-fetching-da
 ### Assignment for Wednesday
 
 Finish the `fetch()` example. If you feel up for it, add `fetch()` to your New York Times listing app. There is no need to post anything on the documentation blog.
+
+## Wednesday
+
+### Fetch State With Router
+
+* **[fetch-router](fetch-router)**. An example that demonstrates fetching the state from an API for multiple pages.
