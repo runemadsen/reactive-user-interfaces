@@ -1,0 +1,39 @@
+.App {
+}
+
+header,
+aside,
+main {
+  padding: 20px;
+}
+
+header {
+  background-color: #c1e7f9;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+
+aside {
+  background-color: #819ebd;
+  flex: 0 0 200px;
+  display: none;
+}
+
+main {
+  background-color: #dae2e4;
+  flex: 1;
+}
+
+@media (min-width: 600px) {
+  aside {
+    display: block;
+  }
+  header,
+  aside,
+  main {
+    padding: 30px;
+  }
+}

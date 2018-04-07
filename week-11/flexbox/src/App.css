@@ -1,0 +1,24 @@
+.App {
+}
+
+header {
+  background-color: #c1e7f9;
+  padding: 20px;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+
+aside {
+  background-color: #819ebd;
+  flex: 0 0 200px;
+  padding: 20px;
+}
+
+main {
+  background-color: #dae2e4;
+  flex: 1;
+  padding: 20px;
+}
