@@ -1,0 +1,27 @@
+.App {
+  display: grid;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  grid-template-columns: 200px auto;
+  grid-template-rows: 60px auto;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #c1e7f9;
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+}
+
+aside {
+  background-color: #819ebd;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+main {
+  background-color: #dae2e4;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
