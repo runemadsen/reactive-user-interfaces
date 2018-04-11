@@ -1,0 +1,23 @@
+.App {
+}
+
+.person {
+  width: 500px;
+  margin-top: 20px;
+  background-color: #d4d4d4;
+  padding: 20px;
+}
+
+@keyframes showPerson {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 500px;
+  }
+}
+
+.person-enter {
+  animation-name: showPerson;
+  animation-duration: 0.5s;
+}

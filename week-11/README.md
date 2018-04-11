@@ -17,8 +17,10 @@ Today we will go through a number of techniques for making user interface layout
 Read [Using CSS Animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations).
 
 * **[animation-click](animation-click)**. Toggles a class that animates a button when clicked.
+* **[animation-transition](animation-transition)**. Uses the `react-transition-group` library to animate mounting and unmounting of a component.
+* **[animation-transition-group](animation-transition-group)**. Uses the `react-transition-group` library to animate mounting and unmounting of several components.
 
-React: Transition
-CSS libraries
-http://ianlunn.github.io/Hover/#effects
-https://daneden.github.io/animate.css/
+Take a look at these CSS animation libraries if you don't want to create your own animations:
+
+* http://ianlunn.github.io/Hover/#effects
+* https://daneden.github.io/animate.css/
