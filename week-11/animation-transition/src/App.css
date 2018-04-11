@@ -1,0 +1,29 @@
+.App {
+}
+
+.box {
+  width: 500px;
+  margin-top: 20px;
+  background-color: #d4d4d4;
+  padding: 70px;
+}
+
+@keyframes showBox {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 500px;
+  }
+}
+
+.box-enter {
+  animation-name: showBox;
+  animation-duration: 0.5s;
+}
+
+.box-exit {
+  animation-name: showBox;
+  animation-direction: reverse;
+  animation-duration: 0.5s;
+}

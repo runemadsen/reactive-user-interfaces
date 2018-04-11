@@ -1,0 +1,29 @@
+.Button {
+  padding: 20px;
+  min-width: 200px;
+  border: none;
+  background-color: #e1e1e1;
+  color: #424242;
+  font-size: 20px;
+  outline: none;
+}
+
+@keyframes turnRed {
+  0% {
+    background-color: #e1e1e1;
+    color: #424242;
+  }
+  50% {
+    background-color: #e45151;
+    color: white;
+  }
+  100% {
+    background-color: #e1e1e1;
+    color: #424242;
+  }
+}
+
+.animate {
+  animation-name: turnRed;
+  animation-duration: 1s;
+}
