@@ -14,3 +14,7 @@ React is a great tool for making reusable interface components for the web. The 
 You can use any of these with `create-react-app`.
 
 * **[material-ui](material-ui)**. An app using the Material UI components.
+
+Whenever you're trying to develop new functionality, make sure that no one has already created it. Let's say, as an example, that we want to create an infinite scroll functionality when loading from the Star Wars API. If you google "Scroll to load more React", you'll find the [`infinite-scroll`](https://www.npmjs.com/package/react-infinite-scroller) React component made for this. The following app shows how to use `material-ui` and `infinite-scroll` to make a feed-like scrolling loader.
+
+* **[infinite-fetch](infinite-fetch)**. Load more Star Wars persons when scrolling.
