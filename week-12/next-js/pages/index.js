@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import fetch from "isomorphic-unfetch";
 import Link from "next/link";
+import Layout from "../components/Layout";
 
 export default class extends React.Component {
   static async getInitialProps({ req }) {
@@ -27,10 +28,10 @@ export default class extends React.Component {
     });
 
     return (
-      <div>
+      <Layout>
         <h1>Star Wars Characters</h1>
         {list}
-      </div>
+      </Layout>
     );
   }
 }

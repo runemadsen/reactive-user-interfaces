@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import fetch from "isomorphic-unfetch";
+import Layout from "../components/Layout";
 
 export default class extends React.Component {
   static async getInitialProps({ req, query }) {
@@ -13,10 +14,10 @@ export default class extends React.Component {
   render() {
     const { person } = this.props;
     return (
-      <div>
+      <Layout>
         <h1>{person.name}</h1>
         <p>Eye Color: {person.eye_color}</p>
-      </div>
+      </Layout>
     );
   }
 }
