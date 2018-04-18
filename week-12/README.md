@@ -26,3 +26,5 @@ Whenever you're trying to develop new functionality, make sure that no one has a
 Next.js is a React-based framework that allows you to render React on the server.
 
 * **[next-js](next-js)**. An app that shows a basic Star Wars next.js setup.
+
+### Work on finals
